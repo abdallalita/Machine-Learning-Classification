@@ -4,7 +4,7 @@ Exchange.
 This notebook aims to build a Machine Learning model for predicting bankruptcy using **XGBoost Algorithm**.
 While **Gradient Boosting** refers to a class of ensemble machine learning algorithm that can be used for both classification and regression predictive modelling
 problems, **XGBoost** of **eXtreme Gradient Boosting** is an optimized an efficient implementation of the Gradient Boosting algorithm.
-More about XGBoost and Gradient Boosting algorithms can be found here: (Website)[https://www.nvidia.com/en-us/glossary/data-science/xgboost/]
+More about XGBoost and Gradient Boosting algorithms can be found here: [[Website](https://www.nvidia.com/en-us/glossary/data-science/xgboost/)
 
 ### Overview
 The data had 6819 rows and 19 columns, with no missing values.All the independent features are continuous while the target variable is made up of labels
