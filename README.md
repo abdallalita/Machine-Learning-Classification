@@ -1,7 +1,7 @@
 ## [Bankruptcy Prediction](#Introduction-1)
 ## [Banknotes Authentication](#Introduction-2)
 ### Introduction 1
-**Bankruptcy data from the Taiwan Economic Journal for the years 1999–2009**
+**Bankruptcy data from the Taiwan Economic Journal for the years 1999–2009**. 
 The data were collected from the Taiwan Economic Journal for the years 1999 to 2009. Company bankruptcy was defined based on the business regulations of the Taiwan Stock
 Exchange.
 This notebook aims to build a Machine Learning model for predicting bankruptcy using **XGBoost Algorithm**.
@@ -23,8 +23,8 @@ This dataset is about checking out the genuine and forged banknotes. In this dat
 Moreover, the images are 400 by 400 pixels. To extract the features from these images, a Wavelet transform tool was used.
 There are five attributes, i.e., the variance of Wavelet Transformed image, skewness of Wavelet Transformed image, curtosis of Wavelet Transformed image, the entropy of image, and class.
 The notebook aims to determine the best or appropriate algorithm for predicting whether a banknote is **fake:class(1) or real:class(0)** from the features.
-More about Support Vector Machine Algorithm can be found here: [SVM](https://www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/)
-More about Naive Bayes Algorithm can be found here: [Naive Bayes](https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/?utm_source=blog&utm_medium=understandingsupportvectormachinearticle)
+1. More about Support Vector Machine Algorithm can be found here: [SVM](https://www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/)
+2. More about Naive Bayes Algorithm can be found here: [Naive Bayes](https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/?utm_source=blog&utm_medium=understandingsupportvectormachinearticle)
 
 #### Overview
 The data had 1374 rows and 5 column features. I performed data cleaning by renaming columns, dropping the first two rows that had irrelevant information and finally changing the data types of the features appropriately.
